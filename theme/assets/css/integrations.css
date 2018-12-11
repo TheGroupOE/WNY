@@ -1,0 +1,55 @@
+/* Integrations 12-17 */
+
+/*Flex*/
+.flexbox {display: flex !important;}
+.flex-wrap {flex-wrap: wrap;}
+.flex-nowrap {flex-wrap: nowrap;}
+.flex-start {justify-content: flex-start;}
+.flex-end {justify-content: flex-end;}
+.flex-column {flex-direction: column;}
+.space-between {justify-content: space-between;}
+.flex-center {justify-content: center;}
+.align-center {align-items: center;}
+.align-top {align-items: flex-start;}
+.align-bottom {align-items: flex-end;}
+
+.column50 {width:50%; padding: 0px 50px 80px; box-sizing: border-box !important;}
+
+/*Scuola*/
+.single-teacher {
+  margin: 100px 0 50px !important;
+}
+.single-teacher .top-teacher-title {
+  margin-bottom: 50px !important;
+}
+
+/* Masterclass / Workshop */
+.ms_image {
+  width: 100%; height: 420px;
+  background-color: #f1f1f1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Accomodation */
+.top-courses-info .top-courses-desc {
+  -webkit-column-count: 1 !important;
+  -moz-column-count: 1 !important;
+  column-count: 1 !important;
+}
+
+/* Summer Camp 16 */
+.sc16 .single-news .bg {
+  width: 90% !important;
+  height: 860px !important;
+  left: -2% !important;
+  bottom: 30px !important;
+  z-index: -4 !important;
+  background-color: #f1ece5;
+}
+
+.contact-3 .title h2 {
+  text-decoration: underline !important;
+}
